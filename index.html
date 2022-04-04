@@ -99,7 +99,7 @@
                     to buy
                     the uniforms for the childrens along with maintaining the other expenses. <br>
 
-                    <span id="dots"></span><span id="more">
+                    <span id="dots2"></span><span id="more2">
                         Since 2 years the schools were online and the childrens do not need uniforms but now schools
                         have
                         been
@@ -114,7 +114,7 @@
                 </p>
 
 
-                <button onclick="ReadmoreFunction()" id="readmore_button">Read more</button>
+                <button onclick="ReadmoreFunction2()" id="readmore_button2">Read more</button>
 
                 <div class="text-center">
                     <a href="#" role="button" class="button_donate_razorpay_2"
@@ -154,6 +154,22 @@
                 dots.style.display = "none";
                 btnText.innerHTML = "Read less";
                 moreText.style.display = "inline";
+            }
+        }
+
+        function ReadmoreFunction2() {
+            var dots2 = document.getElementById("dots2");
+            var moreText2 = document.getElementById("more2");
+            var btnText2 = document.getElementById("readmore_button2");
+
+            if (dots2.style.display === "none") {
+                dots2.style.display = "inline";
+                btnText2.innerHTML = "Read more";
+                moreText2.style.display = "none";
+            } else {
+                dots2.style.display = "none";
+                btnText2.innerHTML = "Read less";
+                moreText2.style.display = "inline";
             }
         }
 
